@@ -38,7 +38,7 @@ def gaussian_splatting_by_youtube_video(video_URL, quality, fps):
     # 設定環境變數,指定使用的GPU的序號
     os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
     os.system(f'python convert.py -s {data_folder}')
-    # os.system(f'python train.py -s {data_folder}')
+    os.system(f'python train.py -s {data_folder}')
 
 # video_URL = "https://youtu.be/_2ntYhxo9OI?si=y0MmTyN1hN_e36Lz"
 # quality = "1080p"
