@@ -7,11 +7,13 @@
 cd {your_path}/gaussian-splatting
 ```
 
+## 開始重建 3D gaussian splatting 模型 
 ```shell
 python 3DGSYT.py -url "https://youtu.be/1C52jSCGkVY?si=Kdu49IpgorJefDMB"
 ```
-也可使用
+0r 
 
+## 開始重建 3D gaussian splatting 模型 (可指定影片各項參數)
 ```shell
 python 3DGSYT.py -url "https://youtu.be/_2ntYhxo9OI?si=y0MmTyN1hN_e36Lz" -res "1080p" -fps "1"
 ```
